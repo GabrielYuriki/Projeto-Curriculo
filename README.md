@@ -1,6 +1,6 @@
 📄 Evolução do Currículo
 
-- Este projeto tem a finalidade de aprimorar minhas habilidades em HTML, CSS e versionamento de código atráves do GIT e GITHUB.
+- Este projeto tem a finalidade de aprimorar minhas habilidades em HTML, CSS e versionamento de código através do GIT e GITHUB.
   
 🟢 Fase 1 (HTML Puro): Esqueleto inicial do site.
 
