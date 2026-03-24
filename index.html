@@ -4,29 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://www.svgrepo.com/show/11803/curriculum-vitae.svg" type="image/svg+xml">
     <title>Currículo</title>
 </head>
     <body>
         <header>
             <h1>Gabriel Yuriki Camargo Ota</h1>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdj0sXy-MZvDb65HfRoOR9Y3IbP1HGROJS0Q&s"
-            alt="Cachorro"
+            <img src="img/fotolinkedin.png"
+            alt="Foto de perfil"
             width="200"
             height="200">
-            <nav class="informacao">
-                Informações Pessoais
-                Formação Acadêmica
-                Competências
-            </nav>
         </header>
         <main>
-            <h2>Informações Pessoais</h2>
-            <p>Me chamo Gabriel Yuriki, tenho 18 anos e estou cursando Ciências da Computação na UNIP, quero que através da faculdade eu possa me formar e alcançar meus objetivos.</p>
+            <div class="titulos"><h2>Informações Pessoais</h2></div>
+            <p class="paragrafo-main">Me chamo Gabriel Yuriki, tenho 18 anos e estou cursando Ciências da Computação na UNIP, 
+                quero que através da faculdade eu possa me formar e alcançar meus objetivos.<br>Atualmente estou estudando <span class="span-front">Front-End com HTML, CSS, Javascript, e React</span> e <span class="span-back">Back-End com Java + Spring</span>.</p>
 
-            <section class="tabela">
-                <h2>Formação Acadêmica</h2>
-            <div class="tabela">
-                <table border="1">
+            <section>
+                <div class="titulos"><h2>Formação Acadêmica</h2></div>
+                <table border="3" class="tabela-formacao-academica">
                     <thead>
                         <tr>
                             <th>Instituição</th>
@@ -36,7 +32,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><p>Colégio Adventista do Campo Limpo</p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBrEJ8iSPX6wXelZjOn884iD8eMoSuOfJMrQ&s"
+                            <td><p class="nome-escola">Colégio Adventista do Campo Limpo</p><img class="imagem-tabela" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBrEJ8iSPX6wXelZjOn884iD8eMoSuOfJMrQ&s"
                             style="width: 100px; height: 60px; display: block; margin: auto;"    
                             alt="Colégio Adventista Do Campo Limpo">
                             </td>
@@ -45,8 +41,8 @@
                         </tr>
                         <tr>
                         <td>
-                            <p>UNIP - Universidade Paulista</p>
-                            <img src="https://logodownload.org/wp-content/uploads/2021/06/unip-logo.png" 
+                            <p class="nome-escola">UNIP - Universidade Paulista</p>
+                            <img class="imagem-tabela" src="https://logodownload.org/wp-content/uploads/2021/06/unip-logo.png" 
                             style="width: 200px; height: 60px; display: block; margin: auto;"
                             alt="UNIP - Paulista">
                             </td>
@@ -55,10 +51,9 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
            <section>
-                <h2>Competências</h2>
-                <table border="2">
+                <div class="titulos"><h2>Competências</h2></div>
+                <table border="3" class="tabela-competencias">
                     <thead>
                         <tr>
                             <th>Habilidade</th>
@@ -87,7 +82,8 @@
            </section>
         </main>
         <footer>
-            <h5>®2026 - Programação WEB RESPONSIVA</h2>
+            <hr>
+            <h5>® 2026 - Programação WEB RESPONSIVA</h5>
         </footer>
     </body>
 </html>
